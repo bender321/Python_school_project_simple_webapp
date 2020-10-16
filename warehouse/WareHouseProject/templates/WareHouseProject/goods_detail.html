@@ -1,0 +1,8 @@
+<ul>
+	{% for goods in all_goods %}
+	<li> <a href='{{goods.id}}/'>{{goods.stock_name}}</a> </li>
+	{% endfor %}
+</ul>
+
+<a href='../'>Zpět</a>
+

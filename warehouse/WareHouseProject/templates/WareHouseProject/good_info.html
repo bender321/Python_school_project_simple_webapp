@@ -1,0 +1,12 @@
+<ul>
+	<h3>Cena zboží - Firma</h3>		
+	<li>{{good.stock_cost}} - {{good.stock_company}}</li>
+	<form action="{% url 'warehouse:Remove Good' good.id%}" method="POST">
+		{% csrf_token %}
+		<input type="submit" value="delete item">
+	</form>
+	
+	
+</ul>
+
+<a href='../'>Zpět</a>

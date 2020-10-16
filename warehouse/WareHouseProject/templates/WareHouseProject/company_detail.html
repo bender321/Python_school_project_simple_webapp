@@ -1,0 +1,6 @@
+<ul>
+	{% for company in all_companies %}
+	<li><a href='{{company.id}}/'>{{company.company_name}}</a></li>
+	{% endfor %}
+</ul>
+<a href='../'>Zpět</a>

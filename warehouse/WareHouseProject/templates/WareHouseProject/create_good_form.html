@@ -1,0 +1,9 @@
+<form class="site-form" action="{% url 'warehouse:Create Good' %}" method="post">
+	{% csrf_token %}
+	{{form}}
+	<input type="submit" value="Create">
+
+</form>
+
+
+<a href='../'>Zpět</a>

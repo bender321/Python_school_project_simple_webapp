@@ -1,0 +1,9 @@
+<form class="moje" action="{% url 'warehouse:Create Customer' %}" method="post">
+	{% csrf_token %}
+	{{form}}
+	<input type="submit" value="Create">
+
+</form>
+
+<a href='../'>Zpět</a>
+

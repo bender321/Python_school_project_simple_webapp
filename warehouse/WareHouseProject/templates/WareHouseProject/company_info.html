@@ -1,0 +1,6 @@
+
+<form action="{% url 'warehouse:Remove Company' company.id%}" method="POST">
+		{% csrf_token %}
+		<input type="submit" value="delete item">
+</form>
+<a href='../'>Zpět</a>
