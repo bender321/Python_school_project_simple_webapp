@@ -8,8 +8,8 @@ This app was tested in Python Virtual enviroment on local computer, so that mean
 
 
 Most important files to look at:
-WareHouseProject/templates/WareHouseProject -> html files that provides template "How a webpage should look (blue print)"
-WareHouseProject/views.py -> file that takes care of "How should browser render wepage"
-WareHouseProject/models.py -> file which contains stuff for creating "tables in SQLite database"
-WareHouseProject/forms.py -> file that contains forms for user to interact with database (UI)
+- WareHouseProject/templates/WareHouseProject -> html files that provides template "How a webpage should look (blue print)"
+- WareHouseProject/views.py -> file that takes care of "How should browser render wepage"
+- WareHouseProject/models.py -> file which contains stuff for creating "tables in SQLite database"
+- WareHouseProject/forms.py -> file that contains forms for user to interact with database (UI)
 
